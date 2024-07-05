@@ -1,0 +1,291 @@
+[{
+  "_id": {
+    "$oid": "6443f323667c86bfcff70c74"
+  },
+  "nombre": "Goku",
+  "raza": "Saiyan",
+  "status": "Héroe",
+  "planeta": "Planeta Vegeta",
+  "habilidad": "Kamehameha",
+  "transformaciones": [
+    "Kaioken",
+    "Super Saiyan 1",
+    "Super Saiyan 2",
+    "Super Saiyan 3",
+    "Super Saiyan Dios",
+    "Super Saiyan Blue",
+    "Ultra Instinto"
+  ],
+  "picture": "public/image-1682174755594.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443f36c667c86bfcff70c76"
+  },
+  "nombre": "Vegeta",
+  "raza": "Saiyan",
+  "status": "Antihéroe",
+  "planeta": "Planeta Vegeta",
+  "habilidad": "Destello final",
+  "transformaciones": [
+    "Ozaru",
+    "Super Saiyan 1",
+    "Super Saiyan 2",
+    "Super Saiyan Blue",
+    "Super Saiyan Blue Evolution"
+  ],
+  "picture": "public/image-1682174828203.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443f41a667c86bfcff70c78"
+  },
+  "nombre": "Gohan",
+  "raza": "Híbrido",
+  "status": "Héroe",
+  "planeta": "Planeta Tierra",
+  "habilidad": "Masenko",
+  "transformaciones": [
+    "Super Saiyan 1",
+    "Super Saiyan 2",
+    "Potencial Desbloqueado"
+  ],
+  "picture": "public/image-1682175002630.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443f7f0667c86bfcff70c7a"
+  },
+  "nombre": "Piccolo",
+  "raza": "Namekiano",
+  "status": "Héroe",
+  "planeta": "Planeta Namek",
+  "habilidad": "Rayo Maléfico",
+  "transformaciones": [
+    "Fusion namekiana"
+  ],
+  "picture": "public/image-1682175984686.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443fa4ee39def529f3131e9"
+  },
+  "nombre": "Freezer",
+  "raza": "Demonio del frio",
+  "status": "Villano",
+  "planeta": "",
+  "habilidad": "Rayo de la muerte",
+  "transformaciones": [
+    "Primero forma",
+    "Segunda forma",
+    "Tercera forma",
+    "Forma final",
+    "Golden Freezer"
+  ],
+  "picture": "public/image-1682176590581.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443fb51e39def529f3131eb"
+  },
+  "nombre": "Célula",
+  "raza": "Androide",
+  "status": "Villano",
+  "planeta": "Planeta Tierra",
+  "habilidad": "Absorción",
+  "transformaciones": [
+    "Forma Imperfecta",
+    "Forma Semi-perfecta",
+    "Forma Perfecta",
+    "Forma Super Perfecta"
+  ],
+  "picture": "public/image-1682176849120.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443fbd2e39def529f3131f0"
+  },
+  "nombre": "Krillin",
+  "raza": "Humano",
+  "status": "Héroe",
+  "planeta": "Planeta Tierra",
+  "habilidad": "Kienza",
+  "transformaciones": [],
+  "picture": "public/image-1682176978779.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443fcfae39def529f3131f2"
+  },
+  "nombre": "C18",
+  "raza": "Androide",
+  "status": "Héroe",
+  "planeta": "Planeta Tierra",
+  "habilidad": "Bala Infinita",
+  "transformaciones": [],
+  "picture": "public/image-1682177274342.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443fde0e39def529f3131f4"
+  },
+  "nombre": "Goten",
+  "raza": "Híbrido",
+  "status": "Héroe",
+  "planeta": "Planeta Tierra",
+  "habilidad": "kamehamha",
+  "transformaciones": [
+    "Super Saiyan"
+  ],
+  "picture": "public/image-1682177504032.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443ff0de39def529f3131f6"
+  },
+  "nombre": "Trunks",
+  "raza": "Híbrido",
+  "status": "Héroe",
+  "planeta": "Planeta Tierra",
+  "habilidad": "Ataque ardiente",
+  "transformaciones": [
+    "Super Saiyan",
+    "Super Saiyan segundo grado",
+    "Super Saiyan 2",
+    "Super Saiyan Iracundo"
+  ],
+  "picture": "public/image-1682177805868.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64440138e39def529f3131f8"
+  },
+  "nombre": "Buu",
+  "raza": "Majin",
+  "status": "Héroe",
+  "planeta": "",
+  "habilidad": "Rayo chocolate",
+  "transformaciones": [
+    "Absorción"
+  ],
+  "picture": "public/image-1682178360909.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644401cae39def529f3131fa"
+  },
+  "nombre": "Kid Buu",
+  "raza": "Majin",
+  "status": "Villano",
+  "planeta": "",
+  "habilidad": "bola de choque",
+  "transformaciones": [
+    "Absorción"
+  ],
+  "picture": "public/image-1682178506838.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6444051848e38288c667ca08"
+  },
+  "nombre": "Roshi",
+  "raza": "Humano",
+  "status": "Héroe",
+  "planeta": "Planeta Tierra",
+  "habilidad": "Kamehameha",
+  "transformaciones": [
+    "Potencia Máxima"
+  ],
+  "picture": "public/image-1682179352910.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6444054e48e38288c667ca0a"
+  },
+  "nombre": "Shenron",
+  "raza": "Dragón",
+  "status": "Neutro",
+  "planeta": "",
+  "habilidad": "Conceder deseos",
+  "transformaciones": [],
+  "picture": "public/image-1682179406311.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644405ca48e38288c667ca0c"
+  },
+  "nombre": "Bardok",
+  "raza": "Saiyan",
+  "status": "Héroe",
+  "planeta": "Planeta Vegeta",
+  "habilidad": "Cañon espiritual",
+  "transformaciones": [
+    "Super Saiyan"
+  ],
+  "picture": "public/image-1682179530622.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6444064748e38288c667ca0e"
+  },
+  "nombre": "Bills",
+  "raza": "Dios de la destrucción",
+  "status": "Neutro",
+  "planeta": "",
+  "habilidad": "Esfera de destrucción",
+  "transformaciones": [],
+  "picture": "public/image-1682179655096.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6444070048e38288c667ca10"
+  },
+  "nombre": "Broly",
+  "raza": "Saiyan",
+  "status": "Villano",
+  "planeta": "Planeta Vegeta",
+  "habilidad": "Ómega Blaster",
+  "transformaciones": [
+    "Super Saiyan A",
+    "Super Saiyan B",
+    "Super Saiyan Legendario"
+  ],
+  "picture": "public/image-1682179840408.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6444072d48e38288c667ca12"
+  },
+  "nombre": "Chichi",
+  "raza": "Humano",
+  "status": "Héroe",
+  "planeta": "Planeta Tierra",
+  "transformaciones": [],
+  "picture": "public/image-1682179885428.jpg",
+  "__v": 0,
+  "habilidad": ""
+},{
+  "_id": {
+    "$oid": "6444073d48e38288c667ca14"
+  },
+  "nombre": "Bulma",
+  "raza": "Humano",
+  "status": "Héroe",
+  "habilidad": "",
+  "planeta": "Planeta Tierra",
+  "transformaciones": [],
+  "picture": "public/image-1682179901530.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644419f26e9c9a13d50cc24e"
+  },
+  "nombre": "Tenshinhan",
+  "raza": "Tricople",
+  "status": "Héroe",
+  "planeta": "Planeta Tierra",
+  "habilidad": "Neo Kikoho",
+  "transformaciones": [],
+  "picture": "public/image-1682184690233.jpg",
+  "__v": 0
+}]

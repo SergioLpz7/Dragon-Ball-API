@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="imagen/bdz.png">
+    <title>Dragon Ball</title>
+  </head>
+  <body>
+    <header>
+      <img src="imagen/Dragon-Ball-Logo-PNG-File.png">
+      <i class="fa-solid fa-bars" id="menuburger"></i>
+      <nav>
+        <a class="active" onclick="filtro(event, 'foto')">Todos</a>
+        <a onclick="filtro(event, 'Saiyan')">Saiyans</a>
+        <a onclick="filtro(event, 'Híbrido')">Hibridos</a>
+        <a onclick="filtro(event, 'Humano')">Humanos</a>
+      </nav>
+    </header>
+
+    <div class="galeria">
+      <div class="carrousel">
+        <span class="flechas" id="sliderAtras">&#8592;</span>
+          <img class="slider" />
+          <span class="flechas" id="sliderAlante">&#8594;</span>
+      </div>
+    </div>
+
+    <div class="contenedor"></div>
+  </body>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://kit.fontawesome.com/82f0f9587a.js"></script>
+  <script src="main.js"></script>
+</html>
+<!-- http://localhost:9000/dragon_ball/index.html -->

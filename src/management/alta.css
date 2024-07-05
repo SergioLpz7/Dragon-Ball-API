@@ -1,0 +1,84 @@
+@font-face {
+  font-family: letra;
+  src: url(../dragon_ball/fuente/CascadiaCodePL.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f68b1e;
+  color: white;
+  font-family: letra;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  background-color: #6beffe;
+  color: white;
+  text-shadow: 2px 2px 4px #00000080;
+  margin-bottom: 5em;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#enviar {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+#inputs {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+}
+
+#inputs input {
+  margin-bottom: 0.3em;
+}
+
+p {
+  font-size: 1.4em;
+}
+
+select {
+  font-size: 1.4em;
+}
+
+input {
+  font-size: 1.4em;
+  padding: 0.2em;
+}
+
+button {
+  font-size: 1.4em;
+  margin-top: 0.4em;
+}
+
+#check {
+  width: 1em;
+  height: 1em;
+}
+.cont-exito{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.cont-exito button{
+  margin: 2em 0;
+}

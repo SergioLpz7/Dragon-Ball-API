@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="alta.css">
+  <title>Dragon Ball - alta</title>
+</head>
+<body>
+  <header>
+    <h1>DAR DE ALTA PERSONAJES</h1>
+  </header>
+  <form id="enviar" enctype="multipart/form-data">
+    <p>Nombre: </p> <input type="text" id="nombre" name="nombre">
+    <p>Raza: </p> <input type="text" id="raza" name="raza">
+    <p>Bando:</p>
+    <select name="status" id="status">
+      <option value="Héroe">Héroe</option>
+      <option value="Antihéroe">Antihéroe</option>
+      <option value="Villano">Villano</option>
+      <option value="Neutro">Neutro</option>
+    </select>    
+    <p>Planeta: </p> <input type="text" id="planeta" name="planeta">
+    <p>Habilidad: </p> <input type="text" id="habilidad" name="habilidad">
+    <p>Transformación:</p> 
+    <input type="checkbox" id="check">
+    <div id="inputs">
+    </div>
+    <input type="button" id="mas" value="Añadir Más" style="display: none;">
+    <p>Imagen: </p> <input type="file" id="image" name="image">
+    <button type="submit"> DAR DE ALTA</button>
+  </form>
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="alta.js"></script>
+</html>
+<!-- http://localhost:9000/management/alta.html -->

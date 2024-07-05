@@ -1,0 +1,248 @@
+@font-face {
+  font-family: letra;
+  src: url(fuente/CascadiaCodePL.ttf);
+}
+@font-face {
+  font-family: titulo;
+  src: url(fuente/Saiyan-Sans.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: letra;
+}
+body {
+  background-image: url(imagen/Comics.jpg);
+  background-attachment: fixed;
+}
+header {
+  padding: 0.2em;
+  background-color: #f68b1e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5em;
+  font-family: titulo;
+}
+header img{
+  width: 3em;
+}
+#menuburger {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  font-size: 0.5em;
+  cursor: pointer;
+}
+nav {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  left: -100%;
+  width: 40%;
+  background-color: gray;
+  position: absolute;
+  top: 112px;
+  z-index: 2;
+}
+nav.active {
+  left: 0;
+}
+a {
+  padding: 3em;
+  width: 100%;
+  font-size: 0.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+a.active {
+  background-color: #6beffe;
+  color: gray;
+}
+.contenedor {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-bottom: 2em;
+}
+h3 {
+  text-align: center;
+  font-size: 2.4em
+}
+h6{
+  font-size: 1.4em;
+}
+.galeria{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  user-select: none;
+  /* background-color: hsl(186, 99%, 71%, 0.3); */
+}
+.carrousel{
+  position: relative;
+}
+section{
+  width: 400px;
+  position: relative;
+}
+.slider{
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 #238aec;
+}
+.flechas{
+  font-size: 3em;
+  position: absolute;
+  top: 50%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#sliderAtras{
+  right:400px;
+}
+#sliderAlante{
+  left:400px;
+}
+span:hover {
+  background-color: #238aec;
+  transition: all 0.5s ease;
+}
+.foto {
+  width: 85%;
+  border: 1px solid;
+  margin-top: 2em;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #afafaf;
+}
+.foto img {
+  width: 100%;
+}
+.foto:hover{
+  scale: 1.1;
+  cursor: pointer;
+}
+.masInfo{
+  display: flex;
+  flex-flow: column wrap;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 1em;
+  background-color: #2541b2 ;
+  border-radius: 40px;
+  color: #d9d9d9;
+  height: 70vh;
+  position: relative;
+}
+.masInfo img {
+  width: 100%;
+  border-radius: 40px;
+
+}
+.datos {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+.masInfo h4{
+  color: #fff;
+}
+.info {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 1.3em;
+}
+.arrow {
+  position: fixed;
+  top: 50%;
+  font-size: 5em;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+#back {
+  left: 0;
+}
+#next {
+  right: 0;
+}
+.volver{
+  background-color: #f68b1e;
+  font-size: 1.2em;
+  padding: .4em;
+  /* border: none; */
+  margin-top: .4em;
+  box-shadow: 0 0 8px 0 #f68b1e;
+  cursor: pointer;
+  position: absolute;
+  bottom: 1em;
+}
+@media screen and (min-width: 700px) {
+  .contenedor {
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  .foto {
+    width: 22%;
+  }
+  #menuburger {
+    display: none;
+  }
+  nav {
+    flex-flow: row wrap;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+  }
+  a {
+    padding: 1em;
+    width: auto;
+    color: #fff;
+  }
+  a.active {
+    color: #fff;
+    background-color: #f68b1e;
+  }
+  .galeria{
+    margin-top: 4.5em;
+  }
+  .flechas{
+    top: 30%;
+    font-size: 4em;
+  }
+  h3{
+    font-size: 1.2em;
+  }
+  h6{
+    font-size: 1em;
+  }
+  .masInfo{
+    flex-flow: row wrap;
+    width: 95%;
+    justify-content: center;
+  }
+  .masInfo img{
+    width: 45%;
+    height: 70%;
+  }
+  .datos{
+    width: 50%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center;
+  }
+  .volver:hover{
+    background-color: #238aec;
+    color: white;
+  }
+  .arrow:hover{
+    background-color: #f68b1e;
+    border-radius: 50%;
+  }
+}

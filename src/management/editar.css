@@ -1,0 +1,139 @@
+@font-face {
+  font-family: letra;
+  src: url(../dragon_ball/fuente/CascadiaCodePL.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: letra;
+}
+body{
+  background-color: #f68b1e;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  background-color: #6beffe;
+  color: white;
+  text-shadow: 2px 2px 4px #00000080;
+  margin-bottom: 5em;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.cont {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin: 1em;
+}
+.linea {
+  display: flex;
+  flex-flow: row nowrap;
+  border: 3px solid;
+  margin-bottom: 1em;
+  box-shadow: 0px 0px 5px 1px black;
+  border-radius: 5px;
+  background-color: white;
+}
+.transformacion {
+  display: flex;
+  flex-flow: column wrap;
+  width: 179px;
+}
+.dato {
+  display: flex;
+  flex-flow: column wrap;
+}
+.inp-cruz {
+  display: flex;
+  width: 100%;
+}
+.inp-cruz input {
+  width: 90%;
+}
+.cruz {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  color: black;
+}
+.cruz:hover {
+  background-color: black;
+  color: white;
+}
+#id {
+  margin: 0 1em;
+  width: 1.5em;
+  cursor: pointer;
+  position: relative;
+  right:0;
+  top: 50%;
+}
+.mas {
+  width: 90%;
+  background-color: #f68b1e;
+  color: #6beffe;
+  border: 2px solid black;
+}
+.mas:hover{
+  background-color: #6beffe;
+  color: #f68b1e;
+}
+#Div-Btn {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.delete, .update {
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 5px;
+  background-color: #6beffe;
+  color: white;
+  font-size: 1.2em;
+  text-shadow: 2px 2px 4px #00000080;
+}
+#Div-Btn button:hover{
+  background-color: black;
+  /* color: white; */
+}
+img {
+  /* width: 300px; */
+  margin-right: 0.4em;
+}
+button{
+  cursor: pointer;
+  transition: all .3s;
+}
+.exito{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-top: 2em;
+  color: white;
+}
+
+.exito button{
+  margin: 2em 0;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 5px;
+  background-color: #6beffe;
+  color: white;
+  font-size: 1.2em;
+  text-shadow: 2px 2px 4px #00000080;
+}
+.exito button:hover{
+  background-color: black;
+
+}
